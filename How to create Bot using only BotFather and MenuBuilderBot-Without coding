@@ -1,22 +1,22 @@
-### How to Create a Telegram Bot Without Coding Using BotFather and MenuBuilderBot
+# How to Create a Telegram Bot Without Coding Using BotFather and MenuBuilderBot
 
 Creating a Telegram bot without any coding is possible using **BotFather** to generate the bot and **MenuBuilderBot** to customize and set up bot functionalities. This guide will take you step by step through the process, from bot creation to customization, with examples for easy understanding.
 
 ---
 
-### Step-by-Step Guide:
+# Step-by-Step Guide:
 
-#### **Step 1: Create a New Bot Using BotFather**
+### Step 1: Create a New Bot Using BotFather
 
-1. **Open Telegram** and search for **[BotFather](https://t.me/BotFather)** in the search bar.
+1. Open Telegram and search for **[BotFather](https://t.me/BotFather)** in the search bar.
    
-2. **Start a chat** with BotFather by clicking the “Start” button.
+2. Start a chat with BotFather by clicking the “Start” button.
 
 3. Use the command `/newbot` to create a new bot.
    
-4. **Name your bot**: BotFather will ask for a name for your bot. Example: `"MyMenuBot"`.
+4. Name your bot: BotFather will ask for a name for your bot. Example: `"MyMenuBot"`.
 
-5. **Create a username** for your bot. The username must end with the word "bot". Example: `"mymenubot"`.
+5. Create a username for your bot. The username must end with the word "bot". Example: `"mymenubot"`.
 
 6. After successful bot creation, BotFather will provide a **Token**. This token is essential for managing your bot. Keep it secure.
 
@@ -29,13 +29,13 @@ Creating a Telegram bot without any coding is possible using **BotFather** to ge
 
 ---
 
-#### **Step 2: Customize Your Bot Using MenuBuilderBot**
+## Step 2: Customize Your Bot Using MenuBuilderBot
 
-Next, you can use **[MenuBuilderBot](https://t.me/MenuBuilderBot)** to create a functional interface for your bot without writing code.
+Next, you can use [MenuBuilderBot](https://t.me/MenuBuilderBot)** to create a functional interface for your bot without writing code.
 
-1. **Search for MenuBuilderBot** in Telegram and start a conversation by clicking the "Start" button.
+1. Search for MenuBuilderBot in Telegram and start a conversation by clicking the "Start" button.
 
-2. **Register Your Bot** with MenuBuilderBot by sending the token you received from BotFather.
+2. Register Your Bot with MenuBuilderBot by sending the token you received from BotFather.
 
    Example:
    ```
@@ -46,7 +46,7 @@ Next, you can use **[MenuBuilderBot](https://t.me/MenuBuilderBot)** to create a 
 
 ---
 
-#### **Step 3: Build the Menu for Your Bot**
+## Step 3: Build the Menu for Your Bot
 
 MenuBuilderBot allows you to create interactive buttons and menus for your bot. Here’s how you can set it up:
 
@@ -59,7 +59,7 @@ MenuBuilderBot allows you to create interactive buttons and menus for your bot. 
 
    This command creates a main menu called "Main Menu."
 
-2. **Add Buttons** to your menu using the `/add_button` command.
+2. Add Buttons to your menu using the `/add_button` command.
 
    Example:
    ```
@@ -68,7 +68,7 @@ MenuBuilderBot allows you to create interactive buttons and menus for your bot. 
 
    This creates a button named "About Us" in the "Main Menu."
 
-3. **Link a message or action** to the button by specifying the content.
+3. Link a message or action** to the button by specifying the content.
 
    Example:
    ```
@@ -78,7 +78,7 @@ MenuBuilderBot allows you to create interactive buttons and menus for your bot. 
 
 ---
 
-#### **Step 4: Add Additional Menus or Submenus**
+## Step 4: Add Additional Menus or Submenus
 
 You can create multiple menus or submenus and add more buttons to them.
 
@@ -107,7 +107,7 @@ You can create multiple menus or submenus and add more buttons to them.
 
 ---
 
-#### **Step 5: Preview and Activate Your Bot**
+## Step 5: Preview and Activate Your Bot
 
 1. Once you've added all the buttons and menus, you can preview your bot by opening it (search for it using its username).
 
@@ -117,11 +117,11 @@ You can create multiple menus or submenus and add more buttons to them.
 
 ---
 
-### Example: Creating a Simple "InfoBot" with About, Services, and Contact Options
+## Example: Creating a Simple "InfoBot" with About, Services, and Contact Options
 
-- **Bot Name**: InfoBot
-- **Username**: myinfobot
-- **Menus**:
+- Bot Name: InfoBot
+- Username: myinfobot
+- Menus:
   1. Main Menu:
      - About Us
      - Services
@@ -132,14 +132,14 @@ You can create multiple menus or submenus and add more buttons to them.
 
 Here’s the process:
 
-1. **BotFather**:
+1. BotFather:
    ```
    /newbot
    Name: InfoBot
    Username: myinfobot
    ```
 
-2. **MenuBuilderBot**:
+2. MenuBuilderBot:
    ```
    /token 123456789:ABCD1EF2G3H4I5JK6LMNOPQRST7UVWXYZ
    /add_menu Main Menu
@@ -159,8 +159,8 @@ Here’s the process:
    "We offer logo and branding services."
    ```
 
-### Congratulations!
-You've successfully created a Telegram bot with a functional menu using **BotFather** and **MenuBuilderBot**—without any coding.
+## Congratulations!
+You've successfully created a Telegram bot with a functional menu using BotFather and MenuBuilderBot—without any coding.
 
 ---
 
